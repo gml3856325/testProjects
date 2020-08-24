@@ -1,0 +1,26 @@
+{
+  "name": "testProjects",
+  "version": "1.0.0",
+  "description": "For basic exercises",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -o dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gml3856325/testProjects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gml3856325/testProjects/issues"
+  },
+  "homepage": "https://github.com/gml3856325/testProjects#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
