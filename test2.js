@@ -1,5 +1,5 @@
 // 解构赋值
-
+console.log('=============== 解构赋值 ===============');
 
 // 数组解构
 let [a1, [b1, b2], c1] =[1, [2, 4], 3]
@@ -31,7 +31,7 @@ let foo2;
 console.log(foo2);
 
 // 字符串解构
-const [g, m, l]="gml";
+const [g, m,l]="gml";
 console.log(g);
 console.log(m);
 console.log(l);
