@@ -18,4 +18,4 @@ document.write('includes ==>', blogs.includes(label))
 document.write('startswith', blogs.startsWith(label))
 document.write('endsWith', blogs.endsWith(label))
 
-console.log('k复制', 'gml'.repeat(12));
+console.log('复制', 'gml'.repeat(12));
