@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>test demo</title>
+		<!-- <script src="./constAndlet.js"></script>
+		<script src="./test2.js"></script>
+		<script src="test3.js"></script>
+		<script src="test4.js"></script>
+		<script src="dist/index.js"></script> -->
+		<style type="text/css">
+			.wrap {
+			    position: relative;
+			    width: 200px;
+			    height: 100vh;
+			    background: #ddd;
+			    overflow: hidden;
+			}
+			
+			span {
+			    display: inline-block;
+			    white-space: nowrap;
+			    padding: 5px;
+			    line-height: 24px;
+			    cursor: pointer;
+			}
+			
+			.one:hover {
+			    animation: move 5s infinite alternate linear;
+			}
+			
+			@keyframes move {
+			    0% {
+			        transform: translate(0, 0);
+			    }
+			    100% {
+			        transform: translate(calc(-100% + 200px), 0);
+			    }
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+		    <span class="one" title="不定宽文本溢出">不定宽文本溢出</span>
+		    <span class="one" title="AAA BBB CCC DDD EEE FFF DDD GGG">AAA BBB CCC DDD EEE FFF DDD GGG</span>
+		    <span class="" title="AAA BBB CCC">AAA BBB CCC</span>
+		    <span class="one" title="AAA BBB CCC DDD EEE FFF DDD GGG HHH III">AAA BBB CCC DDD EEE FFF DDD GGG HHH III</span>
+		</div
+	</body>
+</html>
